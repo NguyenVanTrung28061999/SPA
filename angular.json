@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "4c052fe0-48a7-4695-9533-50d10b6f6ba5"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,9 +34,15 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/cssbundle/daterangepicker.min.css",
+              "src/assets/css/luno-style.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/plugins.js",
+              "src/assets/js/theme.js",
+              "src/assets/js/bundle/apexcharts.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
